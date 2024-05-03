@@ -9,18 +9,21 @@
 </head>
 
 <body>
-    <div class="hero-container">
+    <div class="hero-container" id="home">
         <header>
             <nav>
                 <ul>
-                    <a href="/index.html">
+                    <a href="#home">
                         <li>Home</li>
-                    </a>
-                    <a href="#projects">
-                        <li>Projetos</li>
                     </a>
                     <a href="#contact">
                         <li>Contato</li>
+                    </a>
+                    <a href="#projects">
+                        <li>Projetos</li>
+                    </a>               
+                    <a href="#mensagem">
+                        <li>Mensagem</li>
                     </a>
                 </ul>
             </nav>
@@ -31,8 +34,8 @@
             <path class="a2" d="M0 20 L30 52 L60 20"></path>
             <path class="a3" d="M0 40 L30 72 L60 40"></path>
         </svg>
-    </div>
-    <div class="content-container">
+    </div >
+    <div class="content-container" id="contact">
         <div class="profile-container">
             <div class="profile-content">
                 <div class="profile-card">
@@ -41,31 +44,31 @@
                     <span class="profile-text">
                         Desenvolvedor Front-End
                     </span>
-                    <a href="https://bit.ly/carloshenriquedesenvolvedor" target="_blank">
+                    <a href="https://bit.ly/carloshenriquedesenvolvedor" target="_blank" >
                         <button class="profile-button">
                            
                         </button>
                     </a>
                     <div class="divider"></div>
                     <div class="icons-container"  >
-                        <img id="projects"class="icon-item" src="./logotipos/html.png">
+                        <img class="icon-item" src="./logotipos/html.png">
                         <img class="icon-item" src="./logotipos/download.png">
                         <img class="icon-item" src="./logotipos/js.png">
                         <img class="icon-item" src="./logotipos/node-js.png">
-                        <img class="icon-item" src="./logotipos/angular.png">
+                        <img class="icon-item" src="./logotipos/angular.png" >
                     </div>
 
                 </div>
             </div>
-            <p class="profile-sinopse">
+            <p class="profile-sinopse" >
                 Atuando na área de tecnologia para alavancar sua empresa!
             </p>
         </div>
 
     </div>
-    <div class="content-container">
+    <div class="content-container" >
         <div class="project-container">
-            <div class="project-content">
+            <div class="project-content" id="projects">
                 <div class="position-container right">
                     <div class="project-card">
                         <image class="project-image" src="./logotipos/batman.jpg" />
@@ -101,10 +104,10 @@
 
     </div>
 
-    <div class="content-container">
-        <div class="form-container" id="contact">
+    <div class="content-container" id="mensagem">
+        <div class="form-container" >
             <form class="form" action="https://formspree.io/f/xleyoaga" method="POST" >
-                <label>
+                <label >
                     Nome:
                     <input type="text" name="name">
                 </label>
@@ -112,7 +115,7 @@
                     Email:
                     <input type="email" name="email">
                 </label>
-                <label>
+                <label >
                     Telefone:
                     <input type="number" name="fone">
                 </label>
